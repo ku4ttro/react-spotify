@@ -8,10 +8,6 @@
  * 2. Add box sizing inheritence in all browsers (opinionated).
  */
 
- :root {
-	font-size: 62.5%;
- }
-
 *,
 ::before,
 ::after {
@@ -41,6 +37,7 @@ html {
 	cursor: default; /* 2 */
 	-ms-text-size-adjust: 100%; /* 3 */
 	-webkit-text-size-adjust: 100%; /* 3 */
+	font-size: 62.5%;
 }
 
 /* Sections (https://html.spec.whatwg.org/multipage/semantics.html#sections)
