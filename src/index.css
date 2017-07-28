@@ -8,6 +8,10 @@
  * 2. Add box sizing inheritence in all browsers (opinionated).
  */
 
+ :root {
+	font-size: 62.5%;
+ }
+
 *,
 ::before,
 ::after {

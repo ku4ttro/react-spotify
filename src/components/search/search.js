@@ -4,7 +4,9 @@ import './search.css';
 class Search extends Component {
     render () {
         return (
-            <div>Search</div>
+            <div className="container">
+                <input type="text"/>
+            </div>
         )
     }
 }

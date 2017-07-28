@@ -1,3 +1,4 @@
-.color {
-    color:#666;
+.container {
+    display: flex;
+    order: 2;
 }
